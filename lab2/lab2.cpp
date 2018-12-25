@@ -3,10 +3,35 @@
 
 #include "pch.h"
 #include <iostream>
+#include <stdio.h>
+
+using namespace std;
+void lab2();
+void lab3();
+
+
 
 int main()
 {
-    std::cout << "Hello World!\n"; 
+	cout << "Hello World!\n"; 
+	lab3();
+}
+
+void lab2()
+{
+	char name[10];
+	cout << "What is your name?\n";
+	cin >> name;
+	cout << "Hello " << name << "!" << endl;
+}
+void lab3()
+{
+
+	float metrs = 15;
+	float inch = metrs * 39.37;
+	float arsh = metrs * 1.41;
+	printf("\n metrs = %.2f \n inch = %.2f \n arsh = %.2f \n", metrs,inch,arsh);
+	
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
